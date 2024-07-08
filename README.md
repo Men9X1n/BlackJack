@@ -14,3 +14,4 @@
 
 1.将jre-1.8版本JVM置于想要进一步打包的格式的（.exe）同一目录下
 2.有了jar包后可以使用将jar包变为.exe运行文件的软件（例如exe4j Wizard）进行进一步打包，如图所示：<br>
+![例图](EMS75L4WBECZ(M$2~)QZGMN.png)
