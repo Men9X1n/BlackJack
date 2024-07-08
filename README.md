@@ -4,34 +4,14 @@
 用Java写的可以在控制台进行人机对战的21点小游戏，上班摸鱼神器
 
 #### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+本项目由基础Java语法编写，使用Maven进行打包操作
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.本项目采用jre-1.8版本JVM运行
 
-#### 参与贡献
+#### 安装说明
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.将jre-1.8版本JVM置于想要进一步打包的格式的（.exe）同一目录下
+2.有了jar包后可以使用将jar包变为.exe运行文件的软件（例如exe4j Wizard）进行进一步打包
+![例图](image.png)
