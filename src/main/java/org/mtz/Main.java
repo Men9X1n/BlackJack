@@ -37,13 +37,13 @@ public class Main {
             System.out.println("请输入您想下注的数额：");
             int money;
             while ((money = Input()) == 0) {
+                zeroCount++;
                 if (zeroCount == 3) {//如果玩家输入3次0赌注，游戏直接结束
                     System.out.println("不想玩就滚！");
                     Thread.sleep(1000);
                     return;
                 }
                 System.out.println("请下注！");
-                zeroCount++;
             }
             if (money > totalMoney) {
                 System.out.println("你没有这么多钱，滚出我们赌场！");
