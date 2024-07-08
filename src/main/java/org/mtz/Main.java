@@ -173,6 +173,5 @@ public class Main {
                 System.out.println("\n庄家获胜\n");
             }
         }
-
     }
 }
